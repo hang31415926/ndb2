@@ -1,0 +1,16 @@
+{
+  "name": "node-inspect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/_inspect.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^4.0.1",
+    "debug": "^4.1.1",
+    "open": "^7.0.0"
+  }
+}
