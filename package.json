@@ -1,16 +1,20 @@
 {
-  "name": "node-inspect",
+  "name": "@fk/node-inspect",
   "version": "1.0.0",
   "description": "",
-  "main": "lib/_inspect.js",
+  "main": "lib/inspect.js",
+  "bin": {
+    "ndb": "bin/node-inspect.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "carlo": "^0.9.46",
     "commander": "^4.0.1",
     "debug": "^4.1.1",
-    "open": "^7.0.0"
+    "which": "^2.0.2"
   }
 }
