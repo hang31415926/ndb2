@@ -1,12 +1,10 @@
 {
-  "name": "@fk/node-inspect",
-  "version": "1.0.2",
+  "name": "ndb2",
+  "version": "1.0.0",
   "description": "",
   "main": "lib/inspect.js",
   "bin": {
-    "ndb": "bin/node-inspect.js",
-    "node-inspect": "bin/node-inspect.js",
-    " test ": "node test.js"
+    "ndb2": "bin/node-inspect.js",
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
