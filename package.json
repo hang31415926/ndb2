@@ -4,7 +4,7 @@
   "description": "",
   "main": "lib/inspect.js",
   "bin": {
-    "ndb2": "bin/node-inspect.js",
+    "ndb2": "bin/ndb2.js",
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

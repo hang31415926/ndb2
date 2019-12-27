@@ -5,20 +5,20 @@
 ## 安装
 
 ```sh
-$ npm install node-inspect -g
+$ npm install ndb2 -g
 ```
 
 ## 使用
 
 ```sh
 # 相当于: node main.js
-ndb main.js 
+ndb2 main.js 
 ```
 
 ```sh
-ndb pm2 start pm2.config.js
+ndb2 pm2 start pm2.config.js
 ```
 
 ```sh
-ndb gulp
+ndb2 gulp
 ```
