@@ -9,8 +9,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": {
+    "name": "hth",
+    "email": "hangtuhao@qq.com"
+  },
+  "homepage": "https://github.com/huangtuhao/ndb2",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/huangtuhao/ndb2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/huangtuhao/ndb2/issues"
+  },
+  "license": "MIT",
   "dependencies": {
     "carlo": "^0.9.46",
     "cross-spawn": "^7.0.1",
