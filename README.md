@@ -16,7 +16,7 @@ ndb2 main.js
 ```
 
 ```sh
-ndb2 pm2 start pm2.config.js
+ndb2  pm2 start pm2.config.js
 ```
 
 ```sh

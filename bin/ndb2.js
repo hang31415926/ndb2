@@ -1,8 +1,25 @@
 #!/usr/bin/env node
 
-// process.env.NODE_DEBUG = 'inspect';
+
+const program = require('commander')
+
+program.version(require('../package').version)
 
 let argv = process.argv.slice(2);
+
+program
+  .option('-p, --port <port>', 'port', 9229)
+  .option('-h, --host <host>', 'host', '127.0.0.1')
+  .option('-s, --script', '运行 npm run 指向的命令，跳过 npm 代码调试')
+  .parse(process.argv)
+
+if (!process.argv.slice(2).length) {
+  program.outputHelp()
+}
+
+program.helpInformation = 
+
+
 
 if (argv.length < 1) {
   help();
